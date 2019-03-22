@@ -1,0 +1,9 @@
+{
+  "@robertoachar/generator-node": {
+    "promptValues": {
+      "name": "Micael Pereira",
+      "email": "micael-rj@hotmail.com",
+      "username": "MicaelPereira"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "curso-redis",
+  "version": "1.0.0",
+  "description": "An awesome project",
+  "author": "Micael Pereira <micael-rj@hotmail.com>",
+  "homepage": "https://github.com/MicaelPereira/curso-redis#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MicaelPereira/curso-redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MicaelPereira/curso-redis/issues"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "ioredis": "4.2.0",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "prettier": "1.12.1"
+  },
+  "license": "MIT"
+}
